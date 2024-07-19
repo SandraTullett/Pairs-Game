@@ -1,0 +1,45 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.body {
+  margin: 0;
+  overflow: hidden /* no scroll bar */
+}
+
+.newgamebutton {
+  background-color: rgb(231, 84, 21)
+}
+
+.score-container {
+  display: grid;
+  font-size: 30px;
+  width: 950px;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  font-weight: bold;
+}
+
+.cardchoice {
+  font-size: 25px;
+  margin-bottom: 4px;
+  height: 120px;
+  width: 80px;
+}
+
+.cards {
+  width: 700px;
+}
+.timer {
+  font-size: 30px;
+  font-weight: bold;
+}
+.score {
+  font-size: 30px;
+  font-weight: bold;
+}
+.turncontainer {
+  font-size: 25px;
+  font-weight: bold;
+  color: brown;
+}
